@@ -99,3 +99,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+nav a.active {
+  color: #ff2a2a;
+}
