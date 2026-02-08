@@ -19,6 +19,12 @@ header {
   color: #ff2a2a;
 }
 
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
 nav a {
   margin-left: 20px;
   text-decoration: none;
