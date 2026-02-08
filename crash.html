@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ERROR IUDEX INDUSTRIES</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background: #000;
+      color: #ff2a2a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .crash-box {
+      border: 1px solid #ff2a2a;
+      padding: 40px 60px;
+      max-width: 600px;
+      animation: flicker 0.15s infinite alternate;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 30px;
+      color: #e0e0e0;
+    }
+
+    a {
+      color: #ff2a2a;
+      text-decoration: none;
+      border: 1px solid #ff2a2a;
+      padding: 10px 20px;
+      display: inline-block;
+      transition: 0.2s ease;
+    }
+
+    a:hover {
+      background: #ff2a2a;
+      color: #000;
+    }
+
+    @keyframes flicker {
+      0% { opacity: 0.92; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="crash-box">
+  <h1>SYSTEM FAILURE</h1>
+  <p>An unrecoverable error has occurred.<br>
+     Go Back Now.  
+     Return to a stable environment.</p>
+
+  <a href="index.html">RETURN TO SAFETY</a>
+</div>
+
+</body>
+</html>
